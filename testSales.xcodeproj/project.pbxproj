@@ -15,6 +15,14 @@
 		0493C8101BFA9DE60096629F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0493C80E1BFA9DE60096629F /* LaunchScreen.storyboard */; };
 		0493C81B1BFA9DE60096629F /* testSalesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C81A1BFA9DE60096629F /* testSalesTests.swift */; };
 		0493C8261BFA9DE60096629F /* testSalesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C8251BFA9DE60096629F /* testSalesUITests.swift */; };
+		04E847851BFABF9D00F86B33 /* PresentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E847841BFABF9D00F86B33 /* PresentView.storyboard */; };
+		04E847891BFAC10800F86B33 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E847881BFAC10800F86B33 /* SWRevealViewController.m */; };
+		04E8478C1BFAC35F00F86B33 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8478B1BFAC35F00F86B33 /* AccountViewController.swift */; };
+		04E8478F1BFAC42300F86B33 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8478E1BFAC42300F86B33 /* MenuViewController.swift */; };
+		04E847921BFACD2F00F86B33 /* StoreLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847911BFACD2F00F86B33 /* StoreLocationViewController.swift */; };
+		04E847941BFACFA500F86B33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E847931BFACFA500F86B33 /* MapKit.framework */; };
+		04E847971BFAD29E00F86B33 /* CuponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847961BFAD29E00F86B33 /* CuponViewController.swift */; };
+		04E8479A1BFAD4EA00F86B33 /* PendingPurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847991BFAD4EA00F86B33 /* PendingPurchasesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,16 @@
 		0493C8211BFA9DE60096629F /* testSalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSalesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0493C8251BFA9DE60096629F /* testSalesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSalesUITests.swift; sourceTree = "<group>"; };
 		0493C8271BFA9DE60096629F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E847841BFABF9D00F86B33 /* PresentView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PresentView.storyboard; sourceTree = "<group>"; };
+		04E847861BFAC10800F86B33 /* testSales-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testSales-Bridging-Header.h"; sourceTree = "<group>"; };
+		04E847871BFAC10800F86B33 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Desktop/SWRevealViewController.h; sourceTree = "<group>"; };
+		04E847881BFAC10800F86B33 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Desktop/SWRevealViewController.m; sourceTree = "<group>"; };
+		04E8478B1BFAC35F00F86B33 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		04E8478E1BFAC42300F86B33 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		04E847911BFACD2F00F86B33 /* StoreLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocationViewController.swift; sourceTree = "<group>"; };
+		04E847931BFACFA500F86B33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04E847961BFAD29E00F86B33 /* CuponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuponViewController.swift; sourceTree = "<group>"; };
+		04E847991BFAD4EA00F86B33 /* PendingPurchasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingPurchasesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E847941BFACFA500F86B33 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 		0493C7F71BFA9DE60096629F = {
 			isa = PBXGroup;
 			children = (
+				04E847931BFACFA500F86B33 /* MapKit.framework */,
 				0493C8021BFA9DE60096629F /* testSales */,
 				0493C8191BFA9DE60096629F /* testSalesTests */,
 				0493C8241BFA9DE60096629F /* testSalesUITests */,
@@ -99,6 +119,12 @@
 		0493C8021BFA9DE60096629F /* testSales */ = {
 			isa = PBXGroup;
 			children = (
+				04E847981BFAD4A900F86B33 /* ShoppingCar */,
+				04E847951BFAD27C00F86B33 /* Cupons */,
+				04E847901BFACCF500F86B33 /* StoreMapsLocation */,
+				04E8478D1BFAC40F00F86B33 /* Menu */,
+				04E8478A1BFAC32500F86B33 /* Account */,
+				04E847831BFABF7B00F86B33 /* StartViews */,
 				0493C8031BFA9DE60096629F /* AppDelegate.swift */,
 				0493C8051BFA9DE60096629F /* FirstViewController.swift */,
 				0493C8071BFA9DE60096629F /* SecondViewController.swift */,
@@ -126,6 +152,57 @@
 				0493C8271BFA9DE60096629F /* Info.plist */,
 			);
 			path = testSalesUITests;
+			sourceTree = "<group>";
+		};
+		04E847831BFABF7B00F86B33 /* StartViews */ = {
+			isa = PBXGroup;
+			children = (
+				04E847871BFAC10800F86B33 /* SWRevealViewController.h */,
+				04E847881BFAC10800F86B33 /* SWRevealViewController.m */,
+				04E847841BFABF9D00F86B33 /* PresentView.storyboard */,
+				04E847861BFAC10800F86B33 /* testSales-Bridging-Header.h */,
+			);
+			name = StartViews;
+			sourceTree = "<group>";
+		};
+		04E8478A1BFAC32500F86B33 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				04E8478B1BFAC35F00F86B33 /* AccountViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		04E8478D1BFAC40F00F86B33 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				04E8478E1BFAC42300F86B33 /* MenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		04E847901BFACCF500F86B33 /* StoreMapsLocation */ = {
+			isa = PBXGroup;
+			children = (
+				04E847911BFACD2F00F86B33 /* StoreLocationViewController.swift */,
+			);
+			name = StoreMapsLocation;
+			sourceTree = "<group>";
+		};
+		04E847951BFAD27C00F86B33 /* Cupons */ = {
+			isa = PBXGroup;
+			children = (
+				04E847961BFAD29E00F86B33 /* CuponViewController.swift */,
+			);
+			name = Cupons;
+			sourceTree = "<group>";
+		};
+		04E847981BFAD4A900F86B33 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				04E847991BFAD4EA00F86B33 /* PendingPurchasesViewController.swift */,
+			);
+			name = ShoppingCar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0493C8101BFA9DE60096629F /* LaunchScreen.storyboard in Resources */,
+				04E847851BFABF9D00F86B33 /* PresentView.storyboard in Resources */,
 				0493C80D1BFA9DE60096629F /* Assets.xcassets in Resources */,
 				0493C80B1BFA9DE60096629F /* Main.storyboard in Resources */,
 			);
@@ -262,9 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E847971BFAD29E00F86B33 /* CuponViewController.swift in Sources */,
+				04E847921BFACD2F00F86B33 /* StoreLocationViewController.swift in Sources */,
 				0493C8081BFA9DE60096629F /* SecondViewController.swift in Sources */,
+				04E8478F1BFAC42300F86B33 /* MenuViewController.swift in Sources */,
+				04E8478C1BFAC35F00F86B33 /* AccountViewController.swift in Sources */,
+				04E8479A1BFAD4EA00F86B33 /* PendingPurchasesViewController.swift in Sources */,
 				0493C8041BFA9DE60096629F /* AppDelegate.swift in Sources */,
 				0493C8061BFA9DE60096629F /* FirstViewController.swift in Sources */,
+				04E847891BFAC10800F86B33 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +488,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testSales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balderas.juan.testSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSales/testSales-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,10 +502,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testSales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balderas.juan.testSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSales/testSales-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +578,7 @@
 				0493C82C1BFA9DE60096629F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0493C82D1BFA9DE60096629F /* Build configuration list for PBXNativeTarget "testSalesTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +587,7 @@
 				0493C82F1BFA9DE60096629F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0493C8301BFA9DE60096629F /* Build configuration list for PBXNativeTarget "testSalesUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +596,7 @@
 				0493C8321BFA9DE60096629F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
